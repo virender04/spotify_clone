@@ -1,0 +1,259 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #000000e7;
+  color: #ffffff;
+  overflow: hidden;
+}
+.main {
+  height: 100vh;
+  display: flex;
+}
+.sidebar {
+  background-color: black;
+  border-radius: 1rem;
+  width: 340px;
+}
+.main-content {
+  background-color: #1d1d1d;
+  border-radius: 1rem;
+  flex: 1;
+  overflow: auto;
+  height: 100%;
+  width: 50px;
+  overflow: auto;
+}
+.music-player {
+  background-color: #121212;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 72px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav {
+  background-color: #121212;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  padding: 0.5rem, 0.75rem;
+  margin-top: 4px;
+}
+.nav-option {
+  line-height: 2.5rem;
+  opacity: 0.7;
+  padding: 0.5rem 0.75rem;
+}
+.nav-option:hover {
+  opacity: 1;
+}
+.nav-option i {
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+.anv-option a {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.library {
+  background-color: #121212;
+  border-radius: 1rem;
+  height: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lib-option img {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+.icons {
+  margin: 1.2rem;
+  display: flex;
+}
+.icons i {
+  display: flex;
+  margin-right: 1rem;
+  opacity: 0.7;
+  font-size: 1.2rem;
+  border-radius: 50%;
+}
+.icons i:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: #7c7c7c;
+}
+.playlistbtns {
+  background-color: #121212;
+  display: flex;
+  height: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.andbtn {
+  font-weight: 600;
+  margin: 0.75rem;
+  border-radius: 1rem;
+  background-color: #121212;
+  padding: 7px;
+  opacity: 0.7;
+}
+.andbtn:hover {
+  opacity: 1;
+  background-color: rgb(63, 63, 62);
+  cursor: pointer;
+}
+.Searchandpl {
+  margin: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: space-between;
+}
+.Recents {
+  position: relative;
+  right: -6rem;
+  opacity: 0.7;
+}
+
+.Recents:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.scrollplst {
+  /* background-color: rebeccapurple; */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.playlistsrc {
+  margin-top: 10px;
+  background-color: #121212;
+  height: 50px;
+  width: 100%;
+  border-radius: 4px;
+}
+.playlistsrc {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+.insideimgart img {
+  height: 2.5em;
+  border-radius: 2px;
+  background-size: cover;
+  width: 3em;
+  position: relative;
+  /* padding: 10px; */
+  left: 10px;
+}
+.playlistsrc p {
+  margin-left: 19px;
+  font-weight: 00;
+}
+.playlistsrc:hover {
+  background-color: #1d1d1d;
+}
+.upfix {
+  position: relative;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 50px;
+  width: 100%;
+  background-color: #1d1d1d;
+}
+.arroww {
+  /* height: 20px;
+  width: 20px; */
+  margin-left: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.upfix img {
+  margin: 10px;
+  opacity: 0.7;
+}
+.upfix img:hover {
+  opacity: 1;
+  background-color: #121212;
+  border-radius: 10px;
+  /* padding: 4px; */
+}
+
+.botehrbuto {
+  margin-left: 10px;
+  position: relative;
+  right: -60%;
+  border-radius: 1rem;
+  height: 35px;
+}
+
+.botehrbuto p {
+  font-weight: 500;
+}
+
+.recentylupaded p {
+  margin-left: 20px;
+}
+.recenpakfdkjs {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.fjdlkafjdksl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.controls {
+  position: relative;
+  display: flex;
+  left: 40%;
+  justify-content: center;
+}
+.controls img {
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  opacity: 0.7;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.controls img:hover {
+  opacity: 1;
+}
+.volumebar {
+  position: absolute;
+  bottom: 8px;
+  margin-left: 41.3%;
+  width: 200px;
+}
+.leftsideplayer {
+  display: flex;
+}
